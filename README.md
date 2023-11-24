@@ -1,5 +1,6 @@
 # Demographic data analyzer
-Demographic Data Analyzer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+
+![image](https://github.com/Munchkinland/-demographic-data-analyzer/assets/92251234/05c98d41-fa3f-4324-9eb4-8283d68142f1)
 
 Demographic Data Analyzer
 This Python script analyzes demographic data from the Adult Income dataset to answer various questions about the population. The dataset includes information about individuals' age, education, occupation, and more.
@@ -36,6 +37,9 @@ Determines the most popular occupation among individuals in India who earn more 
 df = pd.read_csv('adult.data.csv')
 
 # Calculate demographic data and print the results
+
+Demographic Data Analyzer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+
 calculate_demographic_data(print_data=True)
 The function returns a dictionary containing the results of the analyses. You can also choose to print the results by setting print_data to True. The printed results include the number of each race, average age of men, percentage with Bachelor's degrees, and more.
 
